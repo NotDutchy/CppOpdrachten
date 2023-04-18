@@ -13,12 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Week1">
-      <UniqueIdentifier>{93cc9bff-6e89-43df-b64e-1d6a751a2b72}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Opdracht1.cpp">
+    <ClCompile Include="Opdracht2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

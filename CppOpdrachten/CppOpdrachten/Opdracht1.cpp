@@ -20,6 +20,7 @@ int main()
     else {
         cout << "Character " << key << " was not found in " << s << endl;
     }
+    return 1;
 }
 
 bool search(string& s, char& key) {
