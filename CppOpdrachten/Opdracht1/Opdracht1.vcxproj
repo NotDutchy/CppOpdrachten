@@ -24,6 +24,7 @@
     <ProjectGuid>{7cceef58-095d-4b63-ae0c-cf9ef03ce0d0}</ProjectGuid>
     <RootNamespace>Opdracht1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Stopwatch</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
