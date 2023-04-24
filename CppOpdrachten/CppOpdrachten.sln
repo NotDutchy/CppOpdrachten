@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindrome", "Palindrome\Pa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hangman", "Hangman\Hangman.vcxproj", "{8435BDC2-1654-4229-BAA0-25F655CEFBDE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LargestBlock", "LargestBlock\LargestBlock.vcxproj", "{2D01525A-A4CF-4CD6-B5F4-4A67B7E4626E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -95,6 +97,14 @@ Global
 		{8435BDC2-1654-4229-BAA0-25F655CEFBDE}.Release|x64.Build.0 = Release|x64
 		{8435BDC2-1654-4229-BAA0-25F655CEFBDE}.Release|x86.ActiveCfg = Release|Win32
 		{8435BDC2-1654-4229-BAA0-25F655CEFBDE}.Release|x86.Build.0 = Release|Win32
+		{2D01525A-A4CF-4CD6-B5F4-4A67B7E4626E}.Debug|x64.ActiveCfg = Debug|x64
+		{2D01525A-A4CF-4CD6-B5F4-4A67B7E4626E}.Debug|x64.Build.0 = Debug|x64
+		{2D01525A-A4CF-4CD6-B5F4-4A67B7E4626E}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D01525A-A4CF-4CD6-B5F4-4A67B7E4626E}.Debug|x86.Build.0 = Debug|Win32
+		{2D01525A-A4CF-4CD6-B5F4-4A67B7E4626E}.Release|x64.ActiveCfg = Release|x64
+		{2D01525A-A4CF-4CD6-B5F4-4A67B7E4626E}.Release|x64.Build.0 = Release|x64
+		{2D01525A-A4CF-4CD6-B5F4-4A67B7E4626E}.Release|x86.ActiveCfg = Release|Win32
+		{2D01525A-A4CF-4CD6-B5F4-4A67B7E4626E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +118,7 @@ Global
 		{11DC3197-CCCF-4429-BC0E-8439F1EEBF95} = {721D2473-674F-41DA-B99E-B4F8F3C8A905}
 		{F069804F-5451-44A3-94EE-C3D32528F06B} = {721D2473-674F-41DA-B99E-B4F8F3C8A905}
 		{8435BDC2-1654-4229-BAA0-25F655CEFBDE} = {721D2473-674F-41DA-B99E-B4F8F3C8A905}
+		{2D01525A-A4CF-4CD6-B5F4-4A67B7E4626E} = {721D2473-674F-41DA-B99E-B4F8F3C8A905}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C76BD9BF-9E7D-4A74-9879-6C9F0453220B}
