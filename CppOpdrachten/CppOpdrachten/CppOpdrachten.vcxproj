@@ -24,7 +24,7 @@
     <ProjectGuid>{1448f838-ca7a-46ba-b10d-ccefa3fc7b9a}</ProjectGuid>
     <RootNamespace>CppOpdrachten</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Opdracht1</ProjectName>
+    <ProjectName>FindCharacterInString</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,6 +24,7 @@
     <ProjectGuid>{40125a48-9f51-4e7c-892f-400cc64c252b}</ProjectGuid>
     <RootNamespace>Opdracht3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>AmountOfCharsInString</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
