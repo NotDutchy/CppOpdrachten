@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{40125a48-9f51-4e7c-892f-400cc64c252b}</ProjectGuid>
-    <RootNamespace>Opdracht3</RootNamespace>
+    <ProjectGuid>{7cceef58-095d-4b63-ae0c-cf9ef03ce0d0}</ProjectGuid>
+    <RootNamespace>Opdracht1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>AmountOfCharsInString</ProjectName>
+    <ProjectName>Stopwatch</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Opdracht3.cpp" />
+    <ClCompile Include="Opdracht1.cpp" />
+    <ClCompile Include="StopWatch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StopWatch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
