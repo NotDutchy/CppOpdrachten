@@ -33,14 +33,15 @@ void Course::addStudent(const std::string& name) {
 
 	if (numberOfStudents >= capacity) {
 		string* newStudents;
-		int newCapacity = capacity++;
+		int newCapacity = capacity + 1;
 		newStudents = new string[newCapacity];
-		for (int i = 0; i < sizeof(students)/sizeof(students[0]); i++)
+		for (int i = 0; i < capacity; i++)
 		{
 			newStudents[i] = students[i];
-			cout << students[i] << "Has been placed into the new array" << newStudents[i] << endl;
+			cout << students[i] << " Has been placed into the new array " << newStudents[i] << endl;
 		}	
 		students = newStudents;
+		capacity = newCapacity;
 	}
 	students[numberOfStudents] = name;
 	numberOfStudents++;
