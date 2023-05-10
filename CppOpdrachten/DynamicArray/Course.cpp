@@ -39,7 +39,9 @@ void Course::addStudent(const std::string& name) {
 		{
 			newStudents[i] = students[i];
 			cout << students[i] << " Has been placed into the new array " << newStudents[i] << endl;
-		}	
+		}
+		delete[] students;
+
 		students = newStudents;
 		capacity = newCapacity;
 	}
@@ -48,7 +50,21 @@ void Course::addStudent(const std::string& name) {
 }
 
 void Course::dropStudent(const std::string& name) {
-	// Left as an exercise
+	string* newStudents = new string[capacity];
+	int newNumberOfStudents = 0;
+
+	for (int i = 0; i < numberOfStudents; i++)
+	{
+		if (students[i] != name)
+		{
+			newStudents[newNumberOfStudents] = students[i];
+			newNumberOfStudents++;
+		}
+	}
+	delete[] students;
+
+	numberOfStudents = newNumberOfStudents;
+	students = newStudents;
 }
 
 std::string* Course::getStudents() const {
@@ -57,4 +73,12 @@ std::string* Course::getStudents() const {
 
 int Course::getNumberOfStudents() const {
 	return numberOfStudents;
+}
+
+void Course::clear()
+{
+	delete[] students;
+
+	students = new string[capacity];
+	numberOfStudents = 0;
 }

@@ -10,6 +10,10 @@ int main() {
 	course1.addStudent("Brian Smith");
 	course1.addStudent("Anne Kennedy");
 
+	course1.dropStudent("Brian Smith");
+
+	course1.clear();
+
 	course2.addStudent("Peter Jones");
 	course2.addStudent("Steve Smith");
 

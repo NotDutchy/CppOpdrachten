@@ -12,6 +12,7 @@ public:
 	void dropStudent(const std::string& name);
 	std::string* getStudents() const;
 	int getNumberOfStudents() const;
+	void clear();
 
 private:
 	std::string courseName;
