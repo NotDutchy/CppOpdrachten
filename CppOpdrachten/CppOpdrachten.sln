@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CountVowels", "CountVowels\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumberStatistics", "NumberStatistics\NumberStatistics.vcxproj", "{2B1FACAA-B1E5-4814-A698-A786ED499814}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseOrder", "ReverseOrder\ReverseOrder.vcxproj", "{B9180B8F-DAE4-4EE1-B1BE-DA2F7C5D3300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -177,6 +179,14 @@ Global
 		{2B1FACAA-B1E5-4814-A698-A786ED499814}.Release|x64.Build.0 = Release|x64
 		{2B1FACAA-B1E5-4814-A698-A786ED499814}.Release|x86.ActiveCfg = Release|Win32
 		{2B1FACAA-B1E5-4814-A698-A786ED499814}.Release|x86.Build.0 = Release|Win32
+		{B9180B8F-DAE4-4EE1-B1BE-DA2F7C5D3300}.Debug|x64.ActiveCfg = Debug|x64
+		{B9180B8F-DAE4-4EE1-B1BE-DA2F7C5D3300}.Debug|x64.Build.0 = Debug|x64
+		{B9180B8F-DAE4-4EE1-B1BE-DA2F7C5D3300}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9180B8F-DAE4-4EE1-B1BE-DA2F7C5D3300}.Debug|x86.Build.0 = Debug|Win32
+		{B9180B8F-DAE4-4EE1-B1BE-DA2F7C5D3300}.Release|x64.ActiveCfg = Release|x64
+		{B9180B8F-DAE4-4EE1-B1BE-DA2F7C5D3300}.Release|x64.Build.0 = Release|x64
+		{B9180B8F-DAE4-4EE1-B1BE-DA2F7C5D3300}.Release|x86.ActiveCfg = Release|Win32
+		{B9180B8F-DAE4-4EE1-B1BE-DA2F7C5D3300}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +208,7 @@ Global
 		{03F8BC29-65C5-496E-A35A-1A74A272AB68} = {E0E664C2-EE11-44DC-971D-A8056BC759E5}
 		{F0241AB2-A2FD-4353-A45E-82165475DB2A} = {E0E664C2-EE11-44DC-971D-A8056BC759E5}
 		{2B1FACAA-B1E5-4814-A698-A786ED499814} = {E0E664C2-EE11-44DC-971D-A8056BC759E5}
+		{B9180B8F-DAE4-4EE1-B1BE-DA2F7C5D3300} = {E0E664C2-EE11-44DC-971D-A8056BC759E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C76BD9BF-9E7D-4A74-9879-6C9F0453220B}
