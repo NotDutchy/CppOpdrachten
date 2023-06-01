@@ -29,17 +29,20 @@ public:
 		data = new int[size];
 	}
 
+	// Destructor
 	~ThreeFiveZero()
 	{
 		delete[] data;
 	}
 
+	//Copy constructor
 	ThreeFiveZero(const ThreeFiveZero& other) : size(other.size)
 	{
 		data = new int[size];
 		std::copy(other.data, other.data + size, data);
 	}
 
+	//Copy Assignment operator
 	ThreeFiveZero& operator=(const ThreeFiveZero& other)
 	{
 		if (this != &other)
@@ -52,6 +55,7 @@ public:
 		return *this;
 	}
 
+	// Print de data van het object
 	void printData() const
 	{
 		for (int i = 0; i < size; i++)
